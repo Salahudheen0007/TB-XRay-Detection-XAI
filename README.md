@@ -19,31 +19,6 @@ To improve transparency and trust, **Explainable AI (XAI)** techniques such as *
 
 ---
 
-## 📂 Project Structure
-TB-XRay-Detection-XAI/
-│
-├── backend/ # FastAPI backend
-│ ├── app.py # Main API (Prediction + GradCAM + LIME)
-│ ├── best_model.pth # Trained DenseNet121 model
-│ ├── requirements.txt
-│
-├── frontend/ # React frontend
-│ ├── src/
-│ ├── public/
-│ ├── package.json
-│
-├── augement.py # Data augmentation script
-├── train.py # Model training script
-├── evaluate.py # Evaluation (ROC, Confusion Matrix)
-├── utils.py # Data loaders & helpers
-├── requirements.txt # Training dependencies
-├── confusion_matrix.png
-├── roc_curve.png
-└── README.md
-
-
----
-
 ## 📊 Dataset
 - **Name:** Tuberculosis (TB) Chest X-ray Dataset  
 - **Source:** Kaggle  
