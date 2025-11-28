@@ -22,7 +22,6 @@ splits/
 models/
 
 # Large model files
-*.pth
 *.pt
 *.h5
 *.onnx
